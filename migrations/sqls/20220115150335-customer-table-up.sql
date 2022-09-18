@@ -1,0 +1,1 @@
+CREATE TABLE customer(id SERIAL PRIMARY KEY, first_name VARCHAR(50), last_name VARCHAR(50), customer_password VARCHAR(500));

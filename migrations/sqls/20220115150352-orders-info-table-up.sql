@@ -1,0 +1,1 @@
+CREATE TABLE orders_infos(id SERIAL PRIMARY KEY , order_id INTEGER REFERENCES orders(id), products_id INTEGER REFERENCES product(id), quantity INTEGER);
